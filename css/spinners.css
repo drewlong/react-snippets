@@ -1,0 +1,8 @@
+@keyframes tickTock {
+  from{
+    transform: rotate(-45deg)
+  }
+  to{
+    transform: rotate(45deg)
+  }
+}

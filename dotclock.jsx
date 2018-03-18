@@ -12,8 +12,8 @@ export default class DotClock extends Component{
       sq5: [],
       sq6: [],
       clockIntervalID: '',
-      dotLitColor: '#ABBA2D',
-      dotColor: '#404040',
+      dotLitColor: '#e42115',
+      dotColor: '#313131',
       clockBGColor: '#212121',
       clockSize: 1.0,
       showOptions: false,
@@ -70,7 +70,6 @@ export default class DotClock extends Component{
     let height = e.target.value
     let val = e.target.value / 100
     let num = Math.round( val * 10) / 10
-    let pix = Math.round(height)
     this.setState({clockSize: num, slider: height})
   }
   render(){
